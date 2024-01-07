@@ -15,5 +15,5 @@ function changeColour() {
 }
 
 function automatedStoplight() {
-    setTimeout(changeColour(), 10000);
+    setInterval(changeColour, 10000);
 }
